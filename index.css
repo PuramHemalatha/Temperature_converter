@@ -21,7 +21,9 @@ h1{
 
 }
 label{
+    padding:50px;
     font-size: 30px;
+
 }
 form {
     justify-content:left;
