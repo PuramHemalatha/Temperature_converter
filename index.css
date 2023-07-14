@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* CSS for larger screens */
+}
 html,body{
     max-width: 100pw;
     max-height: 100vh;
@@ -21,33 +27,33 @@ h1{
 
 }
 label{
-    padding:50px;
     font-size: 30px;
-
+    text-align: center;
+    text-shadow: 40px;
 }
-form {
-    justify-content:left;
+form { 
+
     background-color: rgba(0, 0, 0, 0.363); opacity: 0.1;
-    text-align: justify;
+    height: auto;
     color: rgb(0, 0, 0);
     opacity: 0.7;
+    padding:10px;
     font-family: 'Oswald', sans-serif;
-    font-size:18px;
+    font-size:29px;
     border: 2px solid white;
     border-radius: 15%;
-    text-align: center;
-    
+    text-align: center;    
 }
 label{
-    font-size: 20px;
-    text-align: center;
+    text-align: center;    
+    font-size: 30px;
     text-shadow: 40px;
 }
 select {
-    padding:4px;
-    text-align: center;
-    text-shadow: 40px;
-    background-color: rgba(255, 255, 255,); opacity: 0.8;
+   padding:4px;
+   text-align: center;
+   text-shadow: 40px;
+   background-color: rgba(255, 255, 255,); opacity: 0.8;
    width:100px;
    height: 25px;
    border-radius: 20%;
@@ -80,6 +86,9 @@ input{
         background-repeat: no-repeat;
         background-size: cover;
         background-color: transparent;
+        background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     }
     h1{
         justify-content: center;
@@ -98,9 +107,11 @@ input{
         color: black;
         margin: 40px;
         padding:10px;
+        height: 400px;
+        width:700px;
         opacity: 0.7;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 320px;
+        margin-right: 200px;
         font-family: 'Oswald', sans-serif;
         font-size:25px;
         border: 2px solid white;
